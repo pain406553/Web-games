@@ -1,0 +1,610 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* ------------------------------------------------- */
+.Email{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.Email label{
+    margin: 0 5px;
+}
+.Password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 22px 0 0;
+    
+}
+.Password label{
+    margin: 0 5px;
+}
+.login_page{
+    background-color: #94b6b6;
+    width: 300px;
+    height: 150px;   
+    border-radius: 10px;
+    top: 75px;
+    position: absolute;
+    border: solid black;
+    
+
+}
+.no_page{
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    background-color: #169ad182;
+    margin-left: 600px;
+    padding: 0 50px;
+    position: relative;
+    border-radius: 10px;
+    border: solid gray;
+}
+.login_page header h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.sub input{
+    float: right;
+    margin: 8px 10px 0;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}
+/* ------------------------------------------------- */
+
+.headup{
+    width: 100%;
+    background-color: #3E3F5B;
+    color: black;
+    margin-bottom: 5px;
+    max-width: 100%;
+    font-size: 20px;
+    height: 100%;
+    position: sticky;
+    
+}
+
+.home{  
+    color: white;
+    width: 120px;
+    max-width: 120px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+   
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0 3px;
+    box-shadow:  1px 1px 1px 1px rgba(9, 9, 8, 0.441);
+}
+
+ .home a{  
+  color: white;
+  text-decoration: none;
+} 
+.list{
+    margin: 10px 4px 10px 10px;
+    float: right; 
+    
+}
+.sign{
+    float: right;
+    margin: 3px;
+    display: flex;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 3px;
+    border: solid 1px gray;
+    cursor: pointer;
+    box-shadow:  1px 1px 1px 1px rgba(9, 9, 8, 0.441);
+   
+}
+.sign a{
+    color: black;
+    text-decoration: none;
+}
+.tools{
+    float: right;
+    margin: 10px 10px ;
+    
+}
+.home img,
+.list img,
+.sign img,
+.tools img{
+    width: 250px;
+    height: 250px;
+    padding: 20px 20px 0;
+    border-radius: 50px;
+    border: 1px solid black;
+    box-shadow:  1px 1px 1px 1px rgba(9, 9, 8, 0.441);
+}
+.search_o{
+    width: 20%;
+    max-width: 20%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+    margin: 1% 10%;
+    background-color: white;
+    cursor: pointer;
+    float: right;
+    text-align: center; 
+    border-radius: 10px;
+    border:  solid black 2px;
+}
+.search_o input{
+    border-radius: 10px;
+    margin: 0 0 0 10px;
+    width: 160%;
+    max-width: 160%;
+    overflow: hidden;
+    height: 30px;
+    background-color: #94b6b6;
+}
+/* ------------------------------------------------- */
+.back_mode{
+    background-color: rgba(23, 116, 116, 0.559);
+    width: 15%;
+    Border: 2px solid #ddd;
+    border-radius: 10px;
+    Box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 5px 0;    
+}
+.back_gro{
+justify-content: center;
+display: flex;
+width: 99%;
+
+
+}
+.back_gro button{
+    margin: 0 10px;  
+}
+.back_gro_black button {   
+    color: white;
+    background-color: black;
+    font-size: 100%;
+    font-weight: bold;
+}
+.back_gro_white button{
+    color: black;
+    font-size: 100%;
+    font-weight: bold;
+    background-color: white;
+}
+Button {
+    Padding: 10px 20px;
+    Margin-top: 10px;
+    Border: none;
+    Color: white;
+    Cursor: pointer;
+    Border-radius: 5px;
+}
+
+.back_gro_black Button:hover {
+    Background-color: #2a2926;
+}
+.back_gro_white Button:hover {
+    Background-color: #fff7e0;
+}
+.back_mode h2{
+    text-align: center;
+    padding: 0%;
+    margin: 3px 0;
+    background-color: #613232;
+    border-radius: 10px;
+    margin:0 30% 3%;
+    color: white;
+
+    
+
+}
+
+/* ------------------------------------------------- */
+.nav{
+    
+    background-image: url('imgs/poster_ps5_wallpeper_3.jpg') ;
+    background-size:  cover;
+    background-position: bottom;
+    width: 100%;
+    
+}
+.nav h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;
+text-align: center;
+background-color: #f9f1f165;
+width: 15%;
+margin: 0 42.5% ;
+margin-bottom: 1%;
+border-radius: 10px;
+border: #b7c1c1b4 solid 1px;
+box-shadow:  1px 1px 1px 1px rgba(9, 9, 8, 0.393);
+}
+.nav ul {
+    /* background-color: #16b310; */
+    padding: 0;
+    display: flex;
+    margin:0 10%;
+    list-style: none;
+    text-align: center;
+    justify-content: center;  
+}
+.nav li {
+    
+    background-color: rgba(25, 131, 243, 0.666);
+    padding:10px 50px;
+    color: black;
+    border: solid rgba(202, 194, 194, 0.733) 1px;
+    border-radius: 7px;
+    font-size: 20px;  
+    margin: 10px 20px;
+    box-shadow:  1px 1px 1px 1px rgba(9, 9, 8, 0.441);
+}
+.nav a{
+text-decoration: none;
+}
+.nav_light :hover{
+    background-color: rgba(25, 130, 243, 0.296);
+     
+     font-weight: bold;
+}
+/* ------------------------------------------------- */
+.right_side{
+    /* background-color: #e8dedec7; */
+    background-image: url('imgs/poster_xbyz_2.jpg');
+    background-size: contain;
+    background-position: top;
+    background-repeat: repeat;
+    color: white;
+    width: 20%;
+    height: 100%;
+    float: right;
+    margin-top: 10px;
+    /* border: solid black 1px; */
+    
+}
+
+.aside_list_information ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+ }
+ #top_game_list{
+    list-style: decimal;
+    list-style-position: inside;
+ }
+ #top_game_list li{
+   font-size: 16px;
+ }
+ #top_game_list .aside_light_right :hover{
+    background-color: rgba(255, 179, 0, 0.529);
+    color: white;
+    font-weight: bold;
+ }
+.aside_list_information li{
+    font-size: 15px;
+    
+     padding: 8px;
+     
+ }
+.aside_light_right :hover{
+    background-color: rgba(0, 255, 42, 0.525);
+    color: white;
+     font-weight: bold;
+     
+ }
+/* ------------------------------------------------- */
+.left_side{
+    background-image: url('imgs/poster_xbyz_2.jpg');
+    width: 10%;
+    height: 100%;
+    margin-top: 18px;
+    margin-bottom: 2200px;
+    
+    border: solid black 1px;
+    color: white;
+    box-shadow:  1px 1px 1px 1px rgba(9, 9, 8, 0.329);
+    
+}
+.aside_list_game ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+ }
+.aside_list_game li{
+     border-bottom: 1px solid #007aff;
+     padding: 8px;
+     
+ }
+.aside_list_game_light :hover{
+     background-color: rgba(0, 255, 255, 0.336);
+     
+     font-weight: bold;
+     
+ }
+ .aside_list_game_light a{
+    text-decoration: none;
+    color: white;
+ }
+
+
+ /* ------------------------------------------------- */
+.game_list{
+    background-color: #e8e4e4e1;
+    width: 66%;
+    height: 100%;
+    float: right;
+    margin: 10px 2%;
+    border: solid black 1px;
+}
+.poster_games1 img{
+    width: 96%;
+    margin: 3px 2% 0;
+
+}
+.poster_games2 img{
+
+    width: 96%;
+    height: 120px;
+    margin: 3px 2% 0;
+
+
+}
+.type_games{
+    background-color: skyblue;
+    color: black;
+    margin-bottom:20px ;
+    text-align: center;
+    font-size: 25px;
+    border: solid black 1px;
+}
+.groub_gmaes{
+    width: 96%;
+    height: 400px;
+    margin: 0 2%;
+    /* background-color: beige; */
+    display: flex;
+
+}
+.poster{
+    width: 24%;
+    
+    background-color: #702c2c;
+    margin: 15px 0.5% 2%;
+    border:solid #94b6b6 2px;
+    text-align: center;
+    box-shadow:  1px 1px 1px 1px rgba(9, 9, 8, 0.329);
+}
+.poster img {
+    cursor: pointer;
+    width: 100%;
+    height: 90%;
+    
+
+}
+h3{
+    max-height: 15px;
+    overflow: visible;
+    font-size: 15px;
+    padding: 0 0 20px;
+    margin: 0;
+    /* margin: 4px 10px 15px ; */
+    background-color: rgb(199, 118, 38);
+}
+#img_search{
+    width: 20px;
+    height: 30px;
+    border-radius: 30px;
+}
+.poster a{
+    text-decoration: none;
+    color: black;
+}
+/* ------------------------------------------------ */
+.game{
+
+    background-color:blanchedalmond;
+    width:37.5%;
+    margin: 5% 30% 1%;
+}
+#elden_ring img{
+width: 180px;
+}
+ table{
+    border: 1px black solid;
+    text-align: center;
+   width: 50%;
+   font-weight: bold;
+ }
+ 
+table td{
+    padding:2px 40px;
+    border: 2px black solid;
+ }
+ .td_green{
+    background-color: coral;
+ }
+ .td_yellow{
+    background-color: yellow;
+ }
+ 
+.download{
+    width: 20%;
+    margin:0 40%;
+}
+
+.download button{
+    border-radius: 10px;
+    width: 100%;
+    padding:10px 0 ;
+    background-color: skyblue;
+    cursor: pointer;
+
+}
+.info_game{
+    font-size: 60px;
+    background-color: bisque;
+    border: 2px black solid;
+    border-radius: 10px;
+    text-align: center;
+}
+.descrtion_game{
+    width: 70%;
+    margin:3% 15%;
+    background-color: #94b6b6;
+    border-radius: 5px;
+    border: 1px black solid;
+    
+}
+.descrtion_game p{
+    direction: rtl;
+    font-size: 20px;
+    padding: 20px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    
+}
+.descrtion_game h2{
+    text-align: center;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+}
+/* ------------------------------------------------------------ */
+section{  
+    width: 60%;
+    height: 100%;
+    float: right;
+    margin: 10px 5%;
+
+}
+.groub_ps{
+    
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+    height: 300px;
+   
+}
+.poster_devices{
+    /* border: solid 1px black; */
+    width: 50%;
+    height: 100%;
+    margin: 0 6px;
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
+.poster_devices :hover{
+    opacity: 92%;
+}
+.poster_devices button{
+    margin: 0;
+    padding: 0;
+    width: 35%;
+    height: 10%;
+    font-size: 15px;
+    background-color: #222222;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    box-shadow:  1px 1px 1px 1px rgba(9, 9, 8, 0.329);
+}
+.poster_devices img{
+   width: 100%;
+   height: 80%;
+   margin: 0;
+   border-radius:0 0 10px 10px;
+   box-shadow:  1px 1px 1px 1px rgba(9, 9, 8, 0.329);
+  
+}
+.poster_devices h1{
+    background-color: #16b310;
+    border-radius:  10px 10px 0 0;
+    box-shadow:  1px 1px 1px 1px rgba(9, 9, 8, 0.329);
+    
+    
+}
+
+
+/* ------------------------------------------------------------ */
+footer{
+    padding-top: 40px;
+    background-image: url('imgs/poster_sony_wallpeper.jpg');
+    color: white;
+    width: 100%;
+    height: 380px;
+    
+}
+footer h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dddddd35;
+    
+}
+footer ul {
+    margin: 5px 150px;
+}
+#footer-1{
+    display: flex;
+    margin-top: 30px;
+    
+}
+#footer-1 ul{
+
+list-style-type: none;
+}
+footer li {
+    margin: 10px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer li :hover{
+    color: rgba(255, 255, 255, 0.608);
+}
+footer #call_us :hover{
+    color: rgba(255, 255, 255, 0.608);
+}
+footer #call_us {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.media_img{
+ display: flex;
+ align-items: center;
+}
+.media_img img{
+margin: 0 2px;
+width: 25px;
+border-radius: 25px;
+}
+.foot-3{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.foot-3 a :hover{
+    color: rgba(255, 255, 255, 0.608); 
+}
+
