@@ -378,14 +378,12 @@ text-decoration: none;
     width: 96%;
     height: 400px;
     margin: 0 2%;
-    /* background-color: beige; */
+    
     display: flex;
 
 }
 .poster{
     width: 24%;
-    
-    background-color: #702c2c;
     margin: 15px 0.5% 2%;
     border:solid #94b6b6 2px;
     text-align: center;
@@ -404,7 +402,6 @@ h3{
     font-size: 15px;
     padding: 0 0 20px;
     margin: 0;
-    /* margin: 4px 10px 15px ; */
     background-color: rgb(199, 118, 38);
 }
 #img_search{
